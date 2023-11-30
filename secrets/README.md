@@ -14,4 +14,8 @@ List of needed files:
 **Note: for generating random string you can use mktemp**
 ```
 mktemp --dry-run XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX > jwt_key.txt
+mktemp --dry-run XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX > db_password.txt
+mktemp --dry-run XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX > mail_password.txt
+mktemp --dry-run XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX > email_jwt_key.txt
+mktemp --dry-run XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX > root_operator_password.txt
 ```
